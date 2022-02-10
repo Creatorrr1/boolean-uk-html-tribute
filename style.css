@@ -1,13 +1,22 @@
+/* Helps give space between cover title and image */
 h1 {
-    font-size: 100px;
+    font-size: 60px;
+    white-space: break-spaces;
 }
+ Content {
+font-size:40px
+}  
   
-  h2 {
-    margin-bottom: 8px;
+h3 {
+    margin-bottom: 23px;
   
     font-family: sans-serif;
+    text-decoration: underline;
+  } 
+h2{
+    font-size: 30px;
   }
-  .page {
+.page {
     width: 350px;
     min-height: 450px;
     padding: 16px;
@@ -17,17 +26,28 @@ h1 {
 
     font-family: sans-serif;
     font-size: 11px;
+    background-color: darkgray;
   }
-  .light-shadow {
+.light-shadow {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4); }
-    .page img {
-      width: 175px;
-      min-height: 225px;
-      padding: 8px;
-      margin-bottom: 8px;
+    /* This makes the first page differ in colour */
+.page-first {
+      width: 350px;
+      min-height: 450px;
+      padding: 16px;
+      margin-bottom: 16px;
     
       border: 2px solid #000;
-    
+  
       font-family: sans-serif;
       font-size: 11px;
+      background-color: lightslategray;
+    } 
+    /* centres my image */
+.wrapper{ 
+      height: 250px;
+      width:300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
